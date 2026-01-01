@@ -1,10 +1,13 @@
-A casual arcade game inspired by Stacky Bird, developed in Unity. The player
-controls a bird that collects blocks to build a vertical stack and uses the
-stack to pass through obstacles and reach the finish platform.
+# Stack Bird 2D (Unity)
+
+A 2D casual arcade game developed in Unity where the player taps the screen to
+spawn blocks below the bird. The stacked blocks help the bird gain height to
+clear obstacles and complete the level.
 
 ## Features
 - One-tap control system
-- Block collection and vertical stacking mechanic
+- Block spawning below the bird on screen tap
+- Vertical stacking mechanic
 - Stack height used to clear obstacles
 - Obstacle collision and stack reduction
 - Level-based progression
@@ -14,32 +17,31 @@ stack to pass through obstacles and reach the finish platform.
 ## Tech Stack
 - Unity
 - C#
-- Rigidbody Physics
+- 2D Physics
 - Unity UI (Canvas)
 
 ## What This Project Demonstrates
-- Casual mobile game mechanics
-- Stack management and height-based gameplay logic
-- Obstacle interaction and collision handling
-- Game state and level flow management
-- Clean and modular gameplay code
+- Tap-based input handling
+- Runtime block spawning and stacking logic
+- Height-based obstacle clearance mechanics
+- Collision handling in 2D
+- Level flow and game state management
 
 ## Platform
 - Android
 
 ## How to Play
-1. Tap to move the bird forward
-2. Collect blocks to increase the stack height
-3. Use the stack to pass through obstacles
-4. Reach the finish platform to complete the level
+1. Tap the screen to spawn a block below the bird
+2. Stack blocks to increase height
+3. Use the stack to clear obstacles
+4. Reach the finish area to complete the level
 
 ## How to Run
 1. Open the project in Unity
-2. Select the target platform (Android or PC)
+2. Select the target platform (Android)
 3. Build and run the project
 4. Start a level and play
 
 ## Note
-This project is a gameplay demo created to showcase stack-based mechanics and
-casual mobile game flow. Visual assets are used for demonstration purposes
-only.
+This project is a gameplay demo focused on tap-based stacking mechanics in a
+2D environment. Visual assets are used for demonstration purposes only.
